@@ -1,0 +1,410 @@
+[
+  {
+    "id": "course-arch-sustainable",
+    "title": "Sustainable Architecture & Net-Zero Built Environment",
+    "subtitle": "Master Bioclimatic Design, Mass Timber Systems, Passive Solar Heating, and Life-Cycle Carbon Auditing",
+    "description": "In this premier studio program, you will learn how to design buildings that operate harmoniously with natural climates and minimize operational and embodied carbon. From building orientation and thermal envelope dynamics to mass engineered timber structures and LEED/BREEAM accreditation standards, this course bridges architectural form with rigorous environmental science.",
+    "instructorId": "user-inst-1",
+    "instructorName": "Prof. Julian Sterling, RIBA",
+    "instructorTitle": "Chair of Architecture & Sustainable Built Environment",
+    "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+    "institution": "Oxford School of Architecture & Built Environment",
+    "category": "Architecture & Built Environment",
+    "level": "Intermediate",
+    "duration": "4 Weeks (6 hrs/wk)",
+    "price": 4900,
+    "originalPrice": 8500,
+    "rating": 4.9,
+    "reviewsCount": 3410,
+    "enrolledCount": 16820,
+    "thumbnail": "/src/assets/images/arch_sustainable_building_1791294293441.jpg",
+    "skills": [
+      "Passive House Principles",
+      "Mass Timber Engineering",
+      "Thermal Bridging Analysis",
+      "Carbon Life-Cycle Assessment",
+      "BREEAM & LEED Standards"
+    ],
+    "learningOutcomes": [
+      "Design high-performance building envelopes with solar shading and natural buoyancy-driven ventilation",
+      "Calculate embodied vs. operational carbon emissions across a 60-year building lifecycle",
+      "Specify cross-laminated timber (CLT) structural grid layouts and fire-performance assemblies",
+      "Submit studio architectural drawings and thermal simulation reports for peer and faculty review"
+    ],
+    "prerequisites": [
+      "Basic architectural drawing comprehension",
+      "Fundamental physics and spatial design understanding"
+    ],
+    "published": true,
+    "featured": true,
+    "createdAt": "2026-08-10",
+    "modules": [
+      {
+        "id": "mod-arch-1",
+        "title": "Module 1: Principles of Passive Environmental Architecture",
+        "description": "Microclimate analysis, solar azimuth angles, wind shadows, and thermal mass strategies.",
+        "duration": "1 hr 45 min",
+        "order": 1,
+        "lessons": [
+          {
+            "id": "les-arch-1-1",
+            "title": "1.1 Video Lecture: Designing with Climate, Sun and Wind",
+            "type": "video",
+            "duration": "16 min",
+            "summary": "Prof. Julian Sterling explores historical vernacular architecture and modern passive envelope optimization.",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            "videoPoster": "/src/assets/images/arch_sustainable_building_1791294293441.jpg",
+            "transcript": [
+              {
+                "time": "00:00",
+                "text": "Welcome to Sustainable Architecture and the Built Environment at Hyclass Studio."
+              },
+              {
+                "time": "02:15",
+                "text": "Every architectural decision begins with understanding the sun path diagram for your latitude."
+              },
+              {
+                "time": "05:40",
+                "text": "Notice how proper overhang depth blocks high summer zenith angles while inviting low winter heat."
+              },
+              {
+                "time": "10:12",
+                "text": "Cross-ventilation depends not on openings alone, but on pressure differentials across building facades."
+              },
+              {
+                "time": "14:30",
+                "text": "In your studio project, you will calculate the solar heat gain coefficient (SHGC) for south-facing glazing."
+              }
+            ],
+            "mediaAttachments": [
+              {
+                "id": "att-arch-1",
+                "name": "Oxford_Bioclimatic_Design_Guide.pdf",
+                "url": "#",
+                "type": "pdf",
+                "size": "4.8 MB"
+              },
+              {
+                "id": "att-arch-2",
+                "name": "solar_shading_matrices.png",
+                "url": "/src/assets/images/arch_sustainable_building_1791294293441.jpg",
+                "type": "image",
+                "size": "2.1 MB"
+              }
+            ]
+          },
+          {
+            "id": "les-arch-1-2",
+            "title": "1.2 Reading: Thermal Envelopes & Embodied Carbon Calculations",
+            "type": "reading",
+            "duration": "22 min",
+            "summary": "Analytical breakdown of U-values, airtightness membranes, and carbon sequestration in engineered timber.",
+            "readingContent": "# Thermal Envelopes & Embodied Carbon Calculations\n\n### The Fundamental Heat Transfer Equation\nHeat transfer through a building envelope assembly is governed by the composite thermal transmittance value ($U$-value):\n\n$$Q = U \\cdot A \\cdot \\Delta T$$\n\nWhere $Q$ is heat flow in Watts, $A$ is surface area in $m^2$, and $\\Delta T$ is the indoor-outdoor temperature gradient in Kelvin.\n\n### Embodied vs. Operational Carbon\nTraditional concrete and steel construction emits significant initial carbon ($A1-A3$ stages). By specifying Cross-Laminated Timber (CLT), carbon is sequestered inside the cellulose matrix for the operational lifespan of the structure:\n\n$$C_{\\text{sequestered}} = V_{\\text{timber}} \\times \\rho \\times 0.5 \\times \\frac{44}{12}$$\n\n### Key Principles for Oxford Certified Architects\n1. Eliminating thermal bridges at floor-to-facade junctions prevents condensation and interstitial mold.\n2. Balanced mechanical heat recovery ventilation (MVHR) delivers fresh filtered air while reclaiming 85%+ exhaust heat.\n3. Continuous exterior insulation wraps the structural core, maintaining stable thermal mass."
+          },
+          {
+            "id": "les-arch-1-3",
+            "title": "1.3 Studio Concept Check: Solar Geometry & Envelope Mechanics",
+            "type": "quiz",
+            "duration": "15 min",
+            "summary": "Assess your comprehension of solar heat gain coefficients, stack effect ventilation, and thermal bridging.",
+            "quizQuestions": [
+              {
+                "id": "qa-1",
+                "question": "Why are horizontal exterior louvers more effective than interior blinds for controlling solar heat gain on south-facing facades?",
+                "options": [
+                  "Because they intercept infrared radiation before it passes through the glazing and enters the interior envelope",
+                  "Because they are heavier and provide structural wind bracing to the curtain wall",
+                  "Because interior blinds can only be operated with electrical motors",
+                  "Because horizontal louvers reflect acoustic street noise into the streetscape"
+                ],
+                "correctAnswerIndex": 0,
+                "explanation": "Once solar radiation penetrates the glass, it turns into long-wave thermal radiation trapped inside by the greenhouse effect. Exterior shading blocks the energy before transmission."
+              },
+              {
+                "id": "qa-2",
+                "question": "What is the primary architectural driver of the \"Stack Effect\" (buoyancy-driven natural ventilation) in high-ceiling spaces?",
+                "options": [
+                  "Air pressure differentials caused by temperature and density differences between the bottom and top of a vertical shaft or atrium",
+                  "Mechanical air compressors installed in the basement plenum",
+                  "The magnetic polarity of structural steel columns",
+                  "The acoustic reverberation time of double-height auditoriums"
+                ],
+                "correctAnswerIndex": 0,
+                "explanation": "Warm air is lighter and rises toward ceiling clerestory exhaust vents, drawing cooler air in through low-level inlets without requiring mechanical fans."
+              }
+            ]
+          },
+          {
+            "id": "les-arch-1-4",
+            "title": "1.4 Graded Studio Assignment: Bioclimatic Site Analysis & Section Drawing",
+            "type": "assignment",
+            "duration": "60 min",
+            "summary": "Submit an architectural sectional diagram showing sun angles, prevailing winds, and passive thermal strategy for a temperate climate.",
+            "assignmentPrompt": "Produce an architectural site section drawing (scale 1:100 or diagrammatic) illustrating: (1) Summer and Winter solar penetration angles, (2) Natural cross-ventilation flow paths, and (3) Envelope insulation layer breakdown. Upload your PDF drawing or CAD/BIM export.",
+            "maxPoints": 100,
+            "deadline": "End of Module 1 (Studio review scheduled)",
+            "assignmentRubric": [
+              {
+                "criterion": "Solar Geometry Accuracy",
+                "maxPoints": 30,
+                "description": "Accurate summer solstice (62°) and winter solstice (15°) shading representation."
+              },
+              {
+                "criterion": "Natural Ventilation Flow Logic",
+                "maxPoints": 30,
+                "description": "Clear inlet, thermal mass contact, and stack outlet arrows."
+              },
+              {
+                "criterion": "Material Specification & Insulation",
+                "maxPoints": 25,
+                "description": "Annotated envelope layers with continuous thermal barrier."
+              },
+              {
+                "criterion": "Architectural Graphic Clarity",
+                "maxPoints": 15,
+                "description": "Legible hierarchy, lineweights, north arrows, and dimension scales."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mod-arch-2",
+        "title": "Module 2: Engineered Timber Systems & Regenerative Urbanism",
+        "description": "Cross-Laminated Timber (CLT), Glulam columns, acoustic decoupling, and circular material lifecycles.",
+        "duration": "2 hrs 15 min",
+        "order": 2,
+        "lessons": [
+          {
+            "id": "les-arch-2-1",
+            "title": "2.1 Video Lecture: Structural Logic of Mass Timber Frames",
+            "type": "video",
+            "duration": "20 min",
+            "summary": "Comparative analysis of Glulam post-and-beam vs. hybrid concrete-timber structural cores.",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+            "videoPoster": "/src/assets/images/arch_sustainable_building_1791294293441.jpg",
+            "transcript": [
+              {
+                "time": "00:00",
+                "text": "Mass timber represents the most consequential structural revolution since reinforced concrete."
+              },
+              {
+                "time": "04:50",
+                "text": "Observe how cross-laminated panels distribute two-way floor slab shear loads."
+              },
+              {
+                "time": "11:20",
+                "text": "Charring rate calculations show timber retains structural integrity during fire emergencies."
+              },
+              {
+                "time": "17:40",
+                "text": "Next, we examine CNC robotic prefabrication and tolerance joints."
+              }
+            ]
+          },
+          {
+            "id": "les-arch-2-2",
+            "title": "2.2 Reading: Circular Economy & Deconstruction Detail Planning",
+            "type": "reading",
+            "duration": "25 min",
+            "summary": "Designing joints for disassembly, dry connections, and material passports in the built environment.",
+            "readingContent": "# Circular Economy & Design for Deconstruction\n\n### The Principle of Reversible Joints\nWhen structural elements are glued or cast permanently together, recycling requires demolition downcycling into aggregate. Design for Deconstruction (DfD) mandates demountable bolted connections:\n\n1. Steel bracket assemblies with reusable stainless fasteners\n2. Dry acoustic floor cassettes free from wet screed adhesives\n3. Embedded RFID material passports cataloging wood species and structural rating for century-long reuse."
+          },
+          {
+            "id": "les-arch-2-3",
+            "title": "2.3 Capstone Studio Assignment: Carbon-Neutral Civic Pavilion",
+            "type": "assignment",
+            "duration": "90 min",
+            "summary": "Develop a mass timber structural concept model and write a 500-word design statement.",
+            "assignmentPrompt": "Submit your architectural model photos, 3D renderings, or BIM IFC file for an 800m² community reading pavilion. Include a schedule of materials demonstrating a net-negative carbon balance upon completion.",
+            "maxPoints": 100,
+            "deadline": "End of Module 2",
+            "assignmentRubric": [
+              {
+                "criterion": "Mass Timber Structural Coherence",
+                "maxPoints": 35,
+                "description": "Sensible column grid, span-to-depth ratios, and lateral bracing."
+              },
+              {
+                "criterion": "Embodied Carbon Audit Matrix",
+                "maxPoints": 35,
+                "description": "Quantified material schedule with estimated carbon sequestration values."
+              },
+              {
+                "criterion": "Spatial & Experiential Quality",
+                "maxPoints": 30,
+                "description": "Daylighting quality, acoustic comfort, and human-scaled tectonic beauty."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-arch-urban",
+    "title": "Urban Planning, Resilient Cities & Environmental Infrastructure",
+    "subtitle": "From Macro-Regional Masterplanning to Transit-Oriented Development and Sponge City Hydrology",
+    "description": "Explore the systems that shape the modern built environment. Learn spatial masterplanning, transit-oriented development (TOD), urban heat island mitigation, GIS spatial analytics, and green stormwater infrastructure for climate-adaptive cities.",
+    "instructorId": "user-inst-1",
+    "instructorName": "Prof. Julian Sterling, RIBA",
+    "instructorTitle": "Chair of Architecture & Sustainable Built Environment",
+    "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+    "institution": "Oxford Institute of Urban Design & Built Environment",
+    "category": "Urban Design & Infrastructure",
+    "level": "Advanced",
+    "duration": "5 Weeks (5 hrs/wk)",
+    "price": 5900,
+    "originalPrice": 9900,
+    "rating": 4.8,
+    "reviewsCount": 1940,
+    "enrolledCount": 11200,
+    "thumbnail": "/src/assets/images/arch_urban_planning_1791294308855.jpg",
+    "skills": [
+      "Transit-Oriented Development",
+      "Sponge City Hydrology",
+      "GIS Spatial Analytics",
+      "Microclimate Modeling",
+      "Urban Zoning & Densification"
+    ],
+    "learningOutcomes": [
+      "Design mixed-use 15-minute neighborhood masterplans prioritizing pedestrian active mobility",
+      "Model stormwater catchment systems using permeable pavements and urban bioswales",
+      "Mitigate urban heat islands through tree canopy matrices and albedo surface standards",
+      "Prepare comprehensive spatial planning documents compliant with international urban guidelines"
+    ],
+    "prerequisites": [
+      "Introductory urban geography or architectural spatial planning"
+    ],
+    "published": true,
+    "featured": true,
+    "createdAt": "2026-07-15",
+    "modules": [
+      {
+        "id": "mod-u1",
+        "title": "Module 1: Resilient Neighborhood Frameworks & Density Models",
+        "description": "Floor Area Ratio (FAR), human-scale street enclosure ratios, and multi-modal transit nodes.",
+        "duration": "1 hr 35 min",
+        "order": 1,
+        "lessons": [
+          {
+            "id": "les-u1-1",
+            "title": "1.1 Video: The 15-Minute City and Active Mobility Meshes",
+            "type": "video",
+            "duration": "18 min",
+            "summary": "Urban morphology analysis of European and global capitals transitioning to zero-emission mobility.",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+            "videoPoster": "/src/assets/images/arch_urban_planning_1791294308855.jpg",
+            "transcript": [
+              {
+                "time": "00:00",
+                "text": "Cities account for over 70 percent of global carbon emissions."
+              },
+              {
+                "time": "05:30",
+                "text": "Transit-oriented development places density within 400 meters of rail arteries."
+              },
+              {
+                "time": "11:15",
+                "text": "Enclosure ratios of 1:1 and 1:2 create psychological comfort for pedestrians."
+              }
+            ]
+          },
+          {
+            "id": "les-u1-2",
+            "title": "1.2 Studio Assignment: Masterplan Layout & Zoning Ordinance Analysis",
+            "type": "assignment",
+            "duration": "45 min",
+            "summary": "Propose an urban masterplan for a 12-hectare brownfield harbor district with 40% green public realm.",
+            "assignmentPrompt": "Submit your district masterplan overlay showing street hierarchies, pocket parks, bioswale locations, and building envelope massing. Upload PDF drawing or GIS shapefile export.",
+            "maxPoints": 100,
+            "deadline": "End of Module 1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-arch-bim",
+    "title": "Parametric Architecture, BIM & Advanced Computational Structures",
+    "subtitle": "Rhino Grasshopper Algorithmic Form-Finding, Revit BIM Level 3, and Facade Engineering",
+    "description": "Master computational design workflows that are redefining the built environment. From algorithmic generative geometry and structural lattice optimization in Grasshopper to collaborative BIM Level 3 coordination and CNC fabrication detailing.",
+    "instructorId": "user-inst-1",
+    "instructorName": "Prof. Julian Sterling, RIBA",
+    "instructorTitle": "Chair of Architecture & Sustainable Built Environment",
+    "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+    "institution": "Oxford Center for Architectural Computation",
+    "category": "Computational Architecture & BIM",
+    "level": "Beginner",
+    "duration": "3 Weeks (4 hrs/wk)",
+    "price": 3900,
+    "originalPrice": 6900,
+    "rating": 4.9,
+    "reviewsCount": 1680,
+    "enrolledCount": 9400,
+    "thumbnail": "/src/assets/images/arch_bim_parametric_1791294323108.jpg",
+    "skills": [
+      "Grasshopper Algorithmic Modeling",
+      "BIM Revit Coordination",
+      "Parametric Facades",
+      "Structural Finite Element Analysis",
+      "Robotic Fabrication"
+    ],
+    "learningOutcomes": [
+      "Write parametric visual scripts for complex double-curved roofs and kinetic shading screens",
+      "Perform solar radiation and structural load simulations inside Grasshopper plugins",
+      "Manage multi-disciplinary BIM clash detection workflows conforming to ISO 19650 standards",
+      "Export production-ready fabrication files for CNC timber milling and metal laser cutting"
+    ],
+    "prerequisites": [
+      "Basic 3D modeling literacy (Rhino, SketchUp, or Blender)"
+    ],
+    "published": true,
+    "featured": true,
+    "createdAt": "2026-09-02",
+    "modules": [
+      {
+        "id": "mod-b1",
+        "title": "Module 1: Algorithmic Logic & Double-Curved Geometry",
+        "description": "NURBS surfaces, UV coordinate grids, voronoi subdivisions, and attractor point transformations.",
+        "duration": "1 hr 20 min",
+        "order": 1,
+        "lessons": [
+          {
+            "id": "les-b1-1",
+            "title": "1.1 Video: Grasshopper Visual Scripting Fundamentals",
+            "type": "video",
+            "duration": "17 min",
+            "summary": "Constructing generative facade panels whose apertures respond parametrically to sun vector angles.",
+            "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+            "videoPoster": "/src/assets/images/arch_bim_parametric_1791294323108.jpg",
+            "transcript": [
+              {
+                "time": "00:00",
+                "text": "Parametric architecture is not about bizarre shapes; it is about explicit geometrical relationships."
+              },
+              {
+                "time": "06:15",
+                "text": "We map the sun vector onto normal vectors of each facade unit panel."
+              },
+              {
+                "time": "13:00",
+                "text": "Each louver rotates dynamically to maintain optimal interior daylight factors."
+              }
+            ]
+          },
+          {
+            "id": "les-b1-2",
+            "title": "1.2 Computational Assignment: Responsive Kinetic Screen",
+            "type": "assignment",
+            "duration": "35 min",
+            "summary": "Submit your Grasshopper definition (.gh) or Rhino 3DM file demonstrating an adaptive sun-shading envelope.",
+            "assignmentPrompt": "Create a responsive facade surface where perforation diameters adjust according to incident solar radiation. Upload your Grasshopper definition script and 2 high-res perspective renderings.",
+            "maxPoints": 100,
+            "deadline": "End of Module 1"
+          }
+        ]
+      }
+    ]
+  }
+]

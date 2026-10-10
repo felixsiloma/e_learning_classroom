@@ -1,0 +1,72 @@
+[
+  {
+    "id": "txn-10928",
+    "studentId": "user-student-1",
+    "studentName": "Felix Siloma",
+    "studentEmail": "felixsiloma@gmail.com",
+    "courseId": "course-arch-sustainable",
+    "courseTitle": "Sustainable Architecture & Net-Zero Built Environment",
+    "amount": 4900,
+    "currency": "KES",
+    "paymentMethod": "mpesa",
+    "paymentDetails": {
+      "phone": "+254 712 345 678",
+      "mpesaReceipt": "SKL892HJ30"
+    },
+    "status": "completed",
+    "timestamp": "2026-09-18T10:14:00Z",
+    "receiptNumber": "HS-REC-2026-8891"
+  },
+  {
+    "id": "txn-10929",
+    "studentId": "user-student-2",
+    "studentName": "Amina Kimani",
+    "studentEmail": "amina.k@nairobibuiltenv.org",
+    "courseId": "course-arch-sustainable",
+    "courseTitle": "Sustainable Architecture & Net-Zero Built Environment",
+    "amount": 4900,
+    "currency": "KES",
+    "paymentMethod": "mpesa",
+    "paymentDetails": {
+      "phone": "+254 722 890 123",
+      "mpesaReceipt": "RTM439PL11"
+    },
+    "status": "completed",
+    "timestamp": "2026-09-22T16:22:00Z",
+    "receiptNumber": "HS-REC-2026-9012"
+  },
+  {
+    "id": "txn-10930",
+    "studentId": "user-student-3",
+    "studentName": "Arthur Pendelton",
+    "studentEmail": "arthur.p@oxford.alumni.org",
+    "courseId": "course-arch-urban",
+    "courseTitle": "Urban Planning, Resilient Cities & Environmental Infrastructure",
+    "amount": 5900,
+    "currency": "KES",
+    "paymentMethod": "credit_card",
+    "paymentDetails": {
+      "last4": "5561"
+    },
+    "status": "completed",
+    "timestamp": "2026-09-28T11:45:00Z",
+    "receiptNumber": "HS-REC-2026-9244"
+  },
+  {
+    "id": "txn-10931",
+    "studentId": "user-student-4",
+    "studentName": "Zadie Vance",
+    "studentEmail": "zadie.vance@riba-architects.co.uk",
+    "courseId": "course-arch-bim",
+    "courseTitle": "Parametric Architecture, BIM & Advanced Computational Structures",
+    "amount": 3900,
+    "currency": "KES",
+    "paymentMethod": "pesalink",
+    "paymentDetails": {
+      "bankReference": "KCB-PESA-8849"
+    },
+    "status": "completed",
+    "timestamp": "2026-10-02T08:30:00Z",
+    "receiptNumber": "HS-REC-2026-9501"
+  }
+]

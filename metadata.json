@@ -1,0 +1,6 @@
+{
+  "name": "CourseraX - Modern Learning & Academy Platform",
+  "description": "Coursera-inspired learning platform featuring multi-role portals for Students, Instructors, and Admins, video/reading courseware, interactive assignment submissions, and seamless enrollment payment gateway.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

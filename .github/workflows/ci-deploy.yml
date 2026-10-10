@@ -1,0 +1,47 @@
+name: CI & Production Deploy
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci || npm install
+
+      - name: Type Check & Lint
+        run: npm run lint
+
+      - name: Build Production Frontend
+        run: npm run build
+
+      - name: Verify Health Check & Server Startup
+        run: |
+          npx tsx -e "import('./server.ts').then(() => { console.log('Server verified successfully.'); process.exit(0); }).catch(e => { console.error(e); process.exit(1); })"
+
+  deploy-to-render:
+    needs: build-and-test
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Render Deploy Hook (Optional)
+        if: env.RENDER_DEPLOY_HOOK_URL != ''
+        env:
+          RENDER_DEPLOY_HOOK_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
+        run: |
+          echo "Triggering Render auto-deploy hook..."
+          curl -s -X POST "$RENDER_DEPLOY_HOOK_URL"

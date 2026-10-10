@@ -1,0 +1,33 @@
+# Render.com Infrastructure Blueprint
+# Documentation: https://render.com/docs/blueprint-spec
+version: "1"
+
+services:
+  # CourseraX Full-Stack Web Service (Node.js + Express + Vite React SPA)
+  - type: web
+    name: courserax-academy
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm install && npm run build
+    startCommand: npx tsx server.ts
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: DATABASE_URL
+        fromDatabase:
+          name: courserax-postgres
+          property: connectionString
+
+databases:
+  # Render Free Managed PostgreSQL Database
+  - name: courserax-postgres
+    plan: free
+    region: oregon
+    databaseName: courserax
+    user: courserax_admin
+    ipAllowList: [] # Allows connections from anywhere (Render internal & external)
